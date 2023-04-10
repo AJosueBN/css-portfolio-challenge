@@ -10,8 +10,8 @@ body {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: #000000;
+  color: #fbff04;
 }
 
 /* 
@@ -20,11 +20,11 @@ The flex container becomes flexible
 */
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: #262020;
 }
 
 nav a {
-  color: #13293d;
+  color: #ff0000;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -49,8 +49,8 @@ aside {
 footer {
   padding: 20px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: #000000;
+  color: #fbff04;
 }
 
 /* 
