@@ -14,13 +14,16 @@ header {
   color: #fbff04;
 }
 
+
+
 /* 
 What happens when we set the display property to flex?
 The flex container becomes flexible 
 */
 nav {
   display: flex;
-  background-color: #262020;
+  background-color: #2f2828;
+  
 }
 
 nav a {
@@ -28,6 +31,11 @@ nav a {
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
+
+}
+
+nav a:hover {
+background-color: #bfe30c;  
 }
 
 /* 
@@ -41,9 +49,10 @@ main {
 
 aside {
   flex: 1;
-  background-color: #b9c6ae;
+  background-color: #262020;
   padding: 80px;
   text-align: center;
+  color:#fbff04;
 }
 
 footer {
@@ -53,17 +62,19 @@ footer {
   color: #fbff04;
 }
 
+
 /* 
 What does the justify-content property do?
 It is used to align the flex items; in our case, the product cards 
 */
 .products {
   flex: 4;
-  background-color: #fff;
+  background-color: #ff0000;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 /* 
