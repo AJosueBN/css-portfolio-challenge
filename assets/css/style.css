@@ -15,7 +15,6 @@ header {
 }
 
 
-
 /* 
 What happens when we set the display property to flex?
 The flex container becomes flexible 
@@ -117,6 +116,12 @@ We are making the product card not growable, not shrinkable, and with an initial
 .card img {
   width: 100%;
 }
+
+.card:hover {
+background-color: #000000;  
+}
+  
+
 
 #contactme ul  {
   margin: 0;
