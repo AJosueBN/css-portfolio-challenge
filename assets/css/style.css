@@ -27,7 +27,7 @@ nav {
 }
 
 nav a {
-  color: #ff0000;
+  color: #0d57d5;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -35,7 +35,15 @@ nav a {
 }
 
 nav a:hover {
-background-color: #fbff04;  
+background-color: #000000;  
+}
+
+nav a:active {
+background-color: #000000;  
+}
+
+nav a:focus {
+background-color: #fbff04;
 }
 
 /* 
@@ -67,7 +75,7 @@ footer {
 What does the justify-content property do?
 It is used to align the flex items; in our case, the product cards 
 */
-.products {
+.projects {
   flex: 4;
   background-color: #fbff04;
   padding: 20px;
@@ -75,6 +83,13 @@ It is used to align the flex items; in our case, the product cards
   flex-wrap: wrap;
   justify-content: center;
   
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  margin-top: 10px;
 }
 
 /* 
@@ -101,6 +116,16 @@ We are making the product card not growable, not shrinkable, and with an initial
 
 .card img {
   width: 100%;
+}
+
+#contactme ul  {
+  margin: 0;
+  padding: 0;
+
+}
+
+#contactme li {
+  list-style-type: none;
 }
 
 /* 
