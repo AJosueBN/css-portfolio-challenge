@@ -62,6 +62,13 @@ aside {
   color:#fbff04;
 }
 
+aside img{
+width: 60%;
+max-height: 150px;
+object-fit:fill;
+}
+
+
 footer {
   padding: 20px;
   text-align: center;
@@ -86,9 +93,10 @@ It is used to align the flex items; in our case, the product cards
 
 .grid {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns:auto auto;
   grid-gap: 10px;
   margin-top: 10px;
+
 }
 
 /* 
@@ -97,7 +105,7 @@ It is a shorthand property for the flex-grow, flex-shrink, and flex-basis proper
 What is it doing here?
 We are making the product card not growable, not shrinkable, and with an initial length of 400px 
 */
-.card {
+.card  {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
@@ -113,8 +121,11 @@ We are making the product card not growable, not shrinkable, and with an initial
   text-align: center;
 }
 
+
+
 .card img {
   width: 100%;
+  
 }
 
 .card:hover {
